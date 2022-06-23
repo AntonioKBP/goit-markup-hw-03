@@ -53,10 +53,20 @@ ul {
 }
 
 /* nav-links */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 
 .nav-list {
   list-style: none;
+  display: flex;
 }
+
+.nav-item {
+  margin-right: 50px;
+}
+
 .nav-list .current {
   color: var(--accent-color);
 }
@@ -79,6 +89,7 @@ ul {
 
 .header-list {
   list-style: none;
+  display: flex;
 }
 
 .header-address {
