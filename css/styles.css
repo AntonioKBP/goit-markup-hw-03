@@ -32,6 +32,7 @@ ul {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 /* header */
 
 .header {
@@ -51,6 +52,7 @@ ul {
 
   color: var(--absolute-black);
 }
+
 .logo-accent {
   color: var(--accent-color);
 }
@@ -61,7 +63,6 @@ ul {
   list-style: none;
   display: flex;
 }
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -175,11 +176,20 @@ ul {
   padding-bottom: 94px;
 }
 
+.details-item {
+  margin-right: 50px;
+}
+.details-item:last-child {
+  margin-right: 0;
+}
 .details-list {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
 }
 
 .details-title {
+  width: 270px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -203,6 +213,11 @@ ul {
 
 .work-list {
   list-style: none;
+  display: flex;
+}
+
+.work-item {
+  display: inline-block;
 }
 
 /* Our Team Section */
