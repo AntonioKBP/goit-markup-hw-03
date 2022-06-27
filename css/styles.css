@@ -369,18 +369,8 @@ ul {
   flex-wrap: wrap;
 }
 
-.portfolio-list > .portfolio-item {
-  flex-basis: calc(100% / 3);
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
 .portfolio-item {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--text-color-black);
+  flex-basis: calc((100% -30px) / 3);
 }
 
 .portfolio-title {
