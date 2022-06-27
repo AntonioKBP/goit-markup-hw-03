@@ -43,6 +43,8 @@ ul {
 
 .header-logo {
   margin-right: 93px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
   font-family: Raleway;
   font-weight: 700;
@@ -149,6 +151,9 @@ ul {
   letter-spacing: 0.06em;
   background-color: #2196f3;
   color: #ffffff;
+
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -217,7 +222,13 @@ ul {
 }
 
 .work-item {
-  display: inline-block;
+  margin-right: 30px;
+}
+.work-item:last-child {
+  margin-right: 0;
+}
+.work-img {
+  display: block;
 }
 
 /* Our Team Section */
@@ -228,8 +239,20 @@ ul {
   padding-bottom: 94px;
 }
 .team-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
 }
+
+.team-item {
+  margin-right: 30px;
+}
+
+.team-item:last-child {
+  margin-right: 0;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
