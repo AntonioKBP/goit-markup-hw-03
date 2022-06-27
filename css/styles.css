@@ -370,7 +370,6 @@ ul {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% -30px) / 3);
 }
 
 .portfolio-title {
