@@ -159,7 +159,7 @@ ul {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+  border: 0 transparent;
   border-radius: 4px;
   padding: 10px 32px;
 }
@@ -186,7 +186,6 @@ ul {
 .details-section {
   background-color: var(--white-color);
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .details-item {
@@ -364,6 +363,7 @@ ul {
   display: flex;
   justify-content: center;
   padding: 0;
+  margin-bottom: 50px;
 }
 .btn-item {
   margin-right: 8px;
@@ -415,6 +415,10 @@ ul {
 
 .porfolio-item:nth-child(3n) {
   margin-right: 0;
+}
+
+.porfolio-item:nth-child(-n + 3) {
+  margin-top: 0;
 }
 
 .porfolio-img {
