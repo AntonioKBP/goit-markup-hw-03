@@ -385,10 +385,6 @@ ul {
   border: 0;
 }
 
-.portfolio-btns {
-  margin-bottom: 50px;
-}
-
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: #2196f3;
