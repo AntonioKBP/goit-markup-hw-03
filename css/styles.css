@@ -74,8 +74,6 @@ ul {
 
 .nav-item {
   margin-right: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .nav-item:last-child {
@@ -125,6 +123,8 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--text-color-gray);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header-address:hover,
@@ -276,7 +276,6 @@ ul {
   line-height: 1.18;
   color: var(--text-color-black);
 
-  padding-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -285,7 +284,6 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   color: var(--text-color-gray);
-  padding-bottom: 30px;
 }
 
 .team-section-border {
@@ -294,6 +292,8 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Footer */
@@ -427,6 +427,8 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
   width: 370px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .portfolio-title {
@@ -436,7 +438,6 @@ ul {
   letter-spacing: 0.06em;
   color: var(--text-color-black);
 
-  padding-top: 20px;
   padding-left: 24px;
   margin-bottom: 4px;
 }
@@ -446,7 +447,6 @@ ul {
   line-height: 1.87;
   color: var(--text-color-gray);
 
-  padding-bottom: 20px;
   padding-left: 24px;
 }
 
